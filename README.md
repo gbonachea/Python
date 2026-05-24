@@ -30,10 +30,10 @@ Convertidor de Archivos Multimedias
 <img width="1366" height="768" alt="Stellar-Media-Convertidor" src="https://github.com/user-attachments/assets/1db0f763-f4b5-4dc5-b729-f2ba8d8d018a" />
 
 ## Instagram PWA
-
+<img width="100" height="100" alt="icon" src="https://github.com/user-attachments/assets/069d7ebc-ced2-4b9b-82b6-6a8609d86565" />
 
 ## Messenger PWA
-
+/home/gus/Ãrea de trabalho/Python/Messenger-Webapps/icon.png
 
 ## Whatsapp PWA
 <img width="1366" height="768" alt="Whatsapp" src="https://github.com/user-attachments/assets/3927d310-d2e1-4094-81c4-2f770f884d40" />
