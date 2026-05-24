@@ -1,0 +1,121 @@
+/* style.css - Tema moderno para Stellar Media Converter */
+
+window {
+    background: #f4f4f4;
+}
+
+headerbar {
+    background: linear-gradient(90deg, #4f8cff 0%, #6ed6ff 100%);
+    color: #fff;
+    border-radius: 0 0 12px 12px;
+    min-height: 60px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+label {
+    color: #333;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+button {
+    background: linear-gradient(90deg, #4f8cff 0%, #6ed6ff 100%);
+    color: #fff;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 12px 24px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.10);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background: linear-gradient(90deg, #6ed6ff 0%, #4f8cff 100%);
+    color: #fff;
+}
+
+button#selected_format {
+    background: #4f8cff;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+button#selected_format label {
+    color: white;
+}
+
+combobox, filechooserbutton {
+    background: #fff;
+    color: #333;
+    border-radius: 8px;
+    font-size: 16px;
+    border: 1px solid #d0d0d0;
+    margin-bottom: 10px;
+}
+
+#status {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 16px;
+    color: #4f8cff;
+}
+
+.section {
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    padding: 18px 22px;
+    margin-bottom: 18px;
+}
+
+/* Barra de progreso personalizada */
+progressbar {
+    border-radius: 14px;
+    background: #e0e7ff;
+    box-shadow: 0 2px 8px rgba(79,140,255,0.08);
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+progressbar > trough {
+    border-radius: 14px;
+    background: #e0e7ff;
+}
+
+progressbar > progress {
+    border-radius: 14px;
+    background: linear-gradient(90deg, #4f8cff 0%, #6ed6ff 100%);
+    transition: width 0.5s cubic-bezier(.4,0,.2,1);
+}
+
+progressbar text {
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.main-bg {
+    background: #fff;
+    border-radius: 24px;
+    box-shadow: 0 2px 16px rgba(79,140,255,0.10);
+    margin: 12px;
+    border: 2px solid #e0e7ff;
+}
+
+.header-title {
+    font-size: 25px;
+    font-weight: bold;
+    color: #052b72;
+    letter-spacing: 1px;
+    text-shadow: 0 2px 8px rgba(79,140,255,0.15);
+}
+
+.header-subtitle {
+    font-size: 15px;
+    color: #333;
+    font-weight: bold;
+    margin-top: 2px;
+    margin-left: 12px;
+}

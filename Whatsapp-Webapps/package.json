@@ -1,0 +1,29 @@
+{
+  "name": "whatsapp-desktop",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "WhatsApp Web con bandeja del sistema",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "dependencies": {
+    "electron-store": "latest"
+  },
+  "devDependencies": {
+    "electron": "^38.2.0",
+    "electron-builder": "^24.6.0"
+  },
+  "build": {
+    "appId": "com.art.whatsapptray",
+    "productName": "WhatsAppTray",
+    "linux": {
+      "target": "AppImage",
+      "category": "Network",
+      "icon": "icon.png"
+    }
+  }
+}
