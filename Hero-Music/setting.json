@@ -1,0 +1,23 @@
+{
+    "main_player": {
+        "x": 100,
+        "y": 100,
+        "width": 600,
+        "height": 200,
+        "state": 0
+    },
+    "playlist": {
+        "x": 690,
+        "y": 161,
+        "width": 300,
+        "height": 400,
+        "state": 0
+    },
+    "config": {
+        "x": 306,
+        "y": 362,
+        "width": 439,
+        "height": 267,
+        "state": 0
+    }
+}

@@ -1,0 +1,100 @@
+QWidget {
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
+
+QPushButton {
+    background-color: #2d2d2d;
+    border: 1px solid #3d3d3d;
+    border-radius: 12px;
+    color: #00a0fc;
+    padding: 4px;
+}
+
+QPushButton:hover {
+    background-color: #3d3d3d;
+    border: 1px solid #4d4d4d;
+}
+
+QPushButton:pressed {
+    background-color: #404040;
+    border: 1px solid #505050;
+}
+
+QPushButton:disabled {
+    background-color: #252525;
+    border: 1px solid #303030;
+    color: #666666;
+}
+
+QLabel {
+    color: #00a0fc;
+}
+
+QSlider::groove:horizontal {
+    height: 4px;
+    background: #3d3d3d;
+    margin: 2px 0;
+}
+
+QSlider::handle:horizontal {
+    background: #00a0fc;
+    width: 12px;
+    margin: -4px 0;
+    border-radius: 6px;
+}
+
+QSlider::groove:vertical {
+    width: 4px;
+    background: #3d3d3d;
+}
+
+QSlider::handle:vertical {
+    background: #00a0fc;
+    height: 12px;
+    width: 12px;
+    margin: -3px;
+    border-radius: 6px;
+}
+
+QListWidget {
+    background-color: #2d2d2d;
+    border: 1px solid #3d3d3d;
+    border-radius: 4px;
+    padding: 4px;
+}
+
+QListWidget::item {
+    color: #ffffff;
+    padding: 4px;
+}
+
+QListWidget::item:selected {
+    background-color: #00a0fc;
+    color: #ffffff;
+}
+
+QListWidget::item:hover {
+    background-color: #3d3d3d;
+}
+
+QMenu {
+    background-color: #2d2d2d;
+    border: 1px solid #3d3d3d;
+    padding: 4px;
+}
+
+QMenu::item {
+    color: #ffffff;
+    padding: 4px 20px;
+}
+
+QMenu::item:selected {
+    background-color: #00a0fc;
+}
+
+/* Estilo para ventanas de diálogo */
+QDialog {
+    background-color: #1e1e1e;
+    color: #ffffff;
+}

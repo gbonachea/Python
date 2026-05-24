@@ -1,0 +1,38 @@
+/* Tema Oscuro */
+QWidget {
+    background: #232629;
+    color: #e0e0e0;
+}
+QLabel, QCheckBox {
+    color: #e0e0e0;
+}
+QPushButton {
+    background: #33373a;
+    color: #e0e0e0;
+    border: 1px solid #444;
+    border-radius: 4px;
+    padding: 6px 12px;
+}
+QPushButton:hover {
+    background: #44484b;
+}
+QListWidget, QTextEdit {
+    background: #181a1b;
+    color: #e0e0e0;
+    border: 1px solid #444;
+}
+QTabWidget::pane {
+    border: 1px solid #444;
+    background: #232629;
+}
+QTabBar::tab {
+    background: #33373a;
+    color: #e0e0e0;
+    border: 1px solid #444;
+    border-bottom: none;
+    padding: 6px 16px;
+}
+QTabBar::tab:selected {
+    background: #181a1b;
+    color: #fff;
+}

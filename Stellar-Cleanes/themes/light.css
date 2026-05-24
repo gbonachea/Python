@@ -1,0 +1,38 @@
+/* Tema Claro */
+QWidget {
+    background: #f8f8f8;
+    color: #222;
+}
+QLabel, QCheckBox {
+    color: #222;
+}
+QPushButton {
+    background: #e0e0e0;
+    color: #222;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    padding: 6px 12px;
+}
+QPushButton:hover {
+    background: #d0d0d0;
+}
+QListWidget, QTextEdit {
+    background: #fff;
+    color: #222;
+    border: 1px solid #ccc;
+}
+QTabWidget::pane {
+    border: 1px solid #bbb;
+    background: #f8f8f8;
+}
+QTabBar::tab {
+    background: #e0e0e0;
+    color: #222;
+    border: 1px solid #bbb;
+    border-bottom: none;
+    padding: 6px 16px;
+}
+QTabBar::tab:selected {
+    background: #fff;
+    color: #111;
+}
